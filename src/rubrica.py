@@ -30,8 +30,8 @@ if __name__=="__main__":
     elenco = leggi()
 
     # aggiungiamo un nuovo contatto nell'elenco
-    contatto = { "nome": "Biagio",
-                 "cognome": "Faleni",
+    contatto = { "cognome": "Faleni",
+                 "nome": "Biagio",
                  "cellulare": 3387985594 }
     elenco["contatti"].append(contatto)
 
